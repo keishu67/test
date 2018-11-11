@@ -13,6 +13,7 @@ public class Main {
         for(int i = 0; i < data.length; i++){
             if(map.containsKey(data[i])){
                 int x = map.get(data[i]);
+                // TODO ここの2行は1行でまとめられる by subaru (2018/11/11)
                 x++;
                 map.put(data[i],x);
             } else{
